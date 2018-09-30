@@ -1,0 +1,17 @@
+{
+  "name": "redischema",
+  "version": "0.1.0",
+  "description": "Redis with schema and local store to extend redis capabilities",
+  "main": "index.js",
+  "scripts": {
+    "doc": "jsdoc -r src -d docs --debug"
+  },
+  "author": "Carlos Linares",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "config": "^2.0.1",
+    "jsdoc": "^3.5.5",
+    "redis": "^2.8.0"
+  }
+}
